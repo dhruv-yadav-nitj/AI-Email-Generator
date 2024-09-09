@@ -1,4 +1,9 @@
 # would be using chromadb to make our vector database
+__import__('pysqlite3')
+import sys
+sys.modules['sqlite3'] = sys.modules.pop('pysqlite3')
+
+
 import chromadb
 import pandas as pd
 import uuid

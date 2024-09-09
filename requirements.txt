@@ -194,3 +194,6 @@ websockets==13.0.1
 wrapt==1.16.0
 yarl==1.10.0
 zipp==3.20.1
+
+
+pysqlite3-binary
