@@ -13,7 +13,7 @@ from utils import clean_text
 
 def app(llm: Chain, portfolio):
     st.title('Generate Cold Email Using AI')
-    url = st.text_input(label="Enter the link to career page...", label_visibility="visible")
+    url = st.text_input(label="Enter the link to the job opening webpage...", label_visibility="visible", placeholder='Paste the link to the job opening here!')
     submit_button = st.button("Click Me!")
     if submit_button:
         try:
