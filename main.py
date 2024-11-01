@@ -14,7 +14,7 @@ from utils import clean_text
 def app(llm: Chain, portfolio):
     st.title('Generate Cold Email Using AI')
     url = st.text_input(label="Enter the link to career page...", label_visibility="visible")
-    submit_button = st.button("Submit")
+    submit_button = st.button("Click Me!")
     if submit_button:
         try:
             loader = WebBaseLoader([url])
